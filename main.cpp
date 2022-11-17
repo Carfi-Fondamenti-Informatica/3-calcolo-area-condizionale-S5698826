@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-   int a=0,b=0;
+    float a=0,b=0;
     cin>>a;
     cin>>b;
     int opzione=0;
     cin>>opzione;
     switch (opzione) {
-        case 0:cout<<((a*b)/2);
+        case 0:cout<<int((a*b)/2);
             break;
-        case 1:cout<<(a*a);
+        case 1:cout<<int(a*a);
             break;
-        case 2:cout<<(a*b);
+        case 2:cout<<int(a*b);
             break;
     default:
         cout<<"stringa non valida";
