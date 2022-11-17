@@ -15,7 +15,7 @@ int main() {
         case 2:cout<<(a*b);
             break;
     default:
-        cout<<"stringa non valida";
+        cout<<"opzione non valida";
     }
    
    return 0;
