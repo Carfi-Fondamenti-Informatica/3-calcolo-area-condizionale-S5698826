@@ -8,11 +8,11 @@ int main() {
     int opzione=0;
     cin>>opzione;
     switch (opzione) {
-        case 0:cout<<int((a*b)/2);
+        case 0:cout<<((a*b)/2);
             break;
-        case 1:cout<<int(a*a);
+        case 1:cout<<(a*a);
             break;
-        case 2:cout<<int(a*b);
+        case 2:cout<<(a*b);
             break;
     default:
         cout<<"stringa non valida";
